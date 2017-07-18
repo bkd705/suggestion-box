@@ -1,3 +1,7 @@
 ## Suggestion Box
 
-TODO is filling this in
+#### Stack
+
+- React
+- Apollo Client
+- GraphCool
