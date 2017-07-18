@@ -1,0 +1,31 @@
+# project: cj58w1l647z4001740o69sbhd
+# version: 7
+
+type User implements Node {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  username: String! @isUnique
+  suggestions: [Suggestion!]! @relation(name: "UserSuggestion")
+  email: String @isUnique
+  password: String
+}
+
+type File implements Node {
+  contentType: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
+  name: String!
+  secret: String! @isUnique
+  size: Int!
+  updatedAt: DateTime!
+  url: String! @isUnique
+}
+
+type Suggestion implements Node {
+  id: ID! @isUnique
+  user: User! @relation(name: "UserSuggestion")
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  text: String!
+}
