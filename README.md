@@ -1,5 +1,13 @@
 ## Suggestion Box
 
+#### Git Flow
+
+- Fork Repo
+- Clone Repo
+- Branch
+  - Branches must include initials (ie `bd-suggestion_crud`)
+- Pull request into `development`
+
 #### Application Spec
 
 __User__
