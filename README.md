@@ -5,7 +5,7 @@
 - Fork Repo
 - Clone Repo
 - Branch
-  - Branches must include initials (ie `bd-suggestion_crud`)
+  - Branches must include identifier (ie `bkd-suggestion_crud`)
 - Pull request into `development`
 
 #### Application Spec
